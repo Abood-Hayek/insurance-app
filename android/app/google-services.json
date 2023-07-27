@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "832347207514",
+    "project_id": "insurance-80409",
+    "storage_bucket": "insurance-80409.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:832347207514:android:b42a38f97da8dfc9d9a563",
+        "android_client_info": {
+          "package_name": "com.mad.insurance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "832347207514-ih65o1o660d5f68p3oi1df0ineq6ms33.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mad.insurance",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "832347207514-3pi0mqibk8e76cghpgccdglhi1qt1sqf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQPWwWB2V9i4z9UbKipI6d_CG9MPwSx2k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "832347207514-3pi0mqibk8e76cghpgccdglhi1qt1sqf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "832347207514-ifpsc5876hq06jtk20vd6omou6mi8ts7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mad.insurance"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

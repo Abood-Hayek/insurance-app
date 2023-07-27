@@ -1,0 +1,18 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "policy",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "User_ID",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "policyID",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ]
+}
