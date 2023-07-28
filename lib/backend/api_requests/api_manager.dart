@@ -115,7 +115,7 @@ class ApiManager {
 
   static String asQueryParams(Map<String, dynamic> map) => map.entries
       .map((e) =>
-          "${Uri.encodeComponent(e.key)}=${Uri.encodeComponent(e.value)}")
+          "${Uri.encodeComponent(e.key)}=${Uri.encodeComponent(e.value.toString())}")
       .join('&');
 
   static Future<ApiCallResponse> urlRequest(

@@ -196,11 +196,11 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                       : null;
                   return ClipRRect(
                     borderRadius: BorderRadius.circular(8.0),
-                    child: Image.network(
-                      imageBannerRecord!.image,
+                    child: Image.asset(
+                      'assets/images/banner.jpg',
                       width: double.infinity,
                       height: 174.0,
-                      fit: BoxFit.cover,
+                      fit: BoxFit.fill,
                     ),
                   );
                 },
